@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>アンケートフォーム - SpaceCat</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="./stylesheet.css" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css?family=Raleway:210,400" rel="stylesheet">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	    <!--[if lt IE 9]>
+	    	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	    <script src="script.js"></script>
+
+	    <div class="header">
+		    <div class="titletext">
+			    <div class="p-title">SpaceCat</div>
+			    <div class="p-subtitle">趣味の垂れ流し</div>
+		    </div>
+	    </div>
+
+	    <div class="container-fluid menu">
+		    <div class="row">
+			    <div class="col-md-3 col-sm-3 bg-info text-center"><a href="./index.html">Home</a></div>
+			    <div class="col-md-3 col-sm-3 bg-success text-center"><a href="./login.html">BBS</a></div>
+			    <div class="col-md-3 col-sm-3 bg-warning text-center"><a href="./enq.html">Enquete</a></div>
+			    <div class="col-md-3 col-sm-3 bg-danger text-center"><a href="./link.html">Link</a></div>
+		    </div>
+	    </div>
+
+	    <div class="main">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="col-md-2"></div>
+	    			<div class="col-md-8">
+	    				<!-- ここにアンケートフォームを作成 -->
+	    				<br>
+	    				<div class="form-wrapper">
+	    					<h3>アンケートフォーム</h3>
+	    					どの記事が参考になった・面白かったかを教えてください！<br>
+	    					<div class="container-fluid">
+	    						<form method="POST" action="enq.php">
+	    							<div class="row">
+	    								<div class="col-md-4"></div>
+	    								<div class="col-md-4">
+	    									<br><label>氏名</label>
+	    									<input type="text" name="name" class="form-control" required>
+	    									<br><label>性別</label><br>
+	    									<input type="radio" name="gender" value="男性" required="">男性
+	    									<input type="radio" name="gender" value="女性">女性
+	    								</div>
+	    								<div class="col-md-4"></div>
+	    							</div>
+
+	    							<br>	
+
+	    							<label>記事</label>
+	    							<div class="row">
+	    								<div class="col-md-4">
+	    									<input type="checkbox" name="article[]" value="凛として時雨">凛として時雨
+	    									<br><br>
+	    									<input type="checkbox" name="article[]" value="ぼくのりりっくのぼうよみ">ぼくのりりっくのぼうよみ
+	    								</div>
+	    								<div class="col-md-4">
+	    									<input type="checkbox" name="article[]" value="米津玄師">米津玄師
+	    									<br><br>
+	    									<input type="checkbox" name="article[]" value="雨のパレード">雨のパレード
+	    								</div>
+	    								<div class="col-md-4">
+	    									<input type="checkbox" name="article[]" value="ヒトリエ">ヒトリエ
+	    									<br><br>
+	    									<input type="checkbox" name="article[]" value="Perfume">Perfume
+	    								</div>
+	    							</div>
+	    							<br>
+	    							<button type="submit" class="btn btn-primary">投稿</button>
+	    						</form>
+	    					</div>
+	    				</div>
+	    				<br>
+	    			</div>
+	    			<div class="col-md-2"></div>
+	    		</div>
+	    	</div>
+	    </div>
+
+		<div class="footer titletext">
+		    <ul>
+		    	<li class="p-title">SpaceCat</li>
+				<li>Copyright&copy; 2017 s.nagata All Rights Reserved.</li>
+		    </ul>
+		</div>
+	</body>
+</html>

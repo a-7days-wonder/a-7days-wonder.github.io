@@ -1,0 +1,200 @@
+#pageTop {
+  	position: fixed;
+  	bottom: 20px;
+  	/*right: 344px;*/
+  	z-index: 998;
+}
+ 
+#pageTop a {
+  	display: block;
+  	z-index: 999;
+  	padding: 15px 0 0 0;
+  	border-radius: 30px;
+  	width: 60px;
+  	height: 60px;
+  	background-color: #9FD6D2;
+  	color: #fff;
+  	font-weight: bold;
+  	text-decoration: none;
+  	text-align: center;
+
+  	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+ 
+#pageTop a:hover {
+  	text-decoration: none;
+  	opacity: 0.7;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 120px;
+	background-color: #fff
+}
+
+.titletext {
+	font-family: 'Raleway', sans-serif;
+}
+
+.p-title {
+	font-size: 36px;
+	text-align: center;
+}
+
+.p-subtitle {
+	font-size: 15px;
+	text-align: center;
+}
+
+.col-md-3 a {
+	color: #000;
+}
+
+.col-md-3 a:not(.other) {
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+
+.main {
+	 background-color: #fcf4e8;
+}
+
+.articles {
+	margin: 15px auto;
+}
+
+.footer ul {
+	height: 100px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+	list-style: none;
+}
+
+.footer li {
+	margin-right: 30px;
+}
+
+.footer li:first-child {
+	margin-right: auto;
+}
+
+.article-main {
+	background-color: #fcf4e8;
+}
+
+#entry-wrapper {
+	padding: 40px;
+	background-color: #fff;
+}
+
+.entry-title {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px 10px;
+	background-color: #eee;
+  	border-bottom: 4px solid #ccc;
+  	box-shadow: 0 2px 6px rgba(0, 0, 0, .15);
+}
+
+.article {
+	margin-top: 15px;
+	padding: 15px;
+	align-items: center;
+}
+
+#sidemenu {
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.article-main .row {
+	padding: 30px 0px;
+}
+
+.iframeWrapper {
+	position: relative;
+	width: 100%;
+	padding-top: 56.25%;
+}
+
+.iframeWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.login-wrapper {
+	background-color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+.form-wrapper {
+	background-color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+.bbs-post {
+	background-color: #fff;
+	padding: 40px;
+}
+
+.post-info {
+	background-color: #fff;
+	padding: 40px;
+	text-align: center;
+}
+
+.share .row div {
+	text-align: center;
+	padding: 10px;
+}
+
+.share .row {
+	padding: 5px;
+}
+
+.sharebtns div {
+	border-radius: 5px;
+}
+
+.sharebtns a {
+	display: block;
+    color: #fff;
+    padding: 5px;
+}
+
+.twitterbtn {
+	background-color: #009EF5;
+}
+
+.facebookbtn {
+	background-color: #3B539A;
+}
+
+.hatebubtn {
+	background-color: #00A4E1;
+}
+
+.googlebtn {
+	background-color: #DD4B39;
+}
+
+.pocketbtn {
+	background-color: #EE4056;
+}
+
+.linebtn {
+	background-color: #00C300;
+}
