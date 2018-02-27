@@ -1,0 +1,13 @@
+.background {
+	background-color: var(--siimple-grey);
+}
+
+.content {
+	background-color: var(--siimple-grey);
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
