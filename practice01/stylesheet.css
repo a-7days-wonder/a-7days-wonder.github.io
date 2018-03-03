@@ -1,0 +1,41 @@
+body {
+	font-family: Hiragino Maru Gothic ProN;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #C96156;
+	height: 50px;
+}
+
+header a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+main {
+	padding-top: 50px;
+}
+
+footer {
+	position: relative;
+	height: 150px;
+	background-color: #B9BFB7;
+	margin: 0;
+}
+
+footer p {
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform : translate(-50%,-50%);
+	margin: 0 auto;
+}
